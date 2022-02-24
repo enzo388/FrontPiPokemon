@@ -1,0 +1,23 @@
+.order_box{
+    width: 25%;
+    height: 32px;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    justify-content: space-evenly;
+}
+
+
+
+.name_select{
+    height: 100%;
+    border-radius: 10px;
+    
+    
+}
+
+.attack_select{
+    height: 100%;
+    border-radius: 10px;
+    
+   
+}
