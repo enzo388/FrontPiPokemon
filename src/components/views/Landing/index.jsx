@@ -11,12 +11,10 @@ function Landing() {
     }
     return (
         <div className={styles.landing_box}>
-            <div className={styles.landing_title}>
-                <label>Buscador Pokemon</label>
-            </div>
-            <div className={styles.landing_btn1}>
+            
+            
                 <button onClick={handle_home} className={styles.landing_btn3} >Inicio</button>
-            </div>
+    
         </div>
     )
 }

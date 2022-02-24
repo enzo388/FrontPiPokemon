@@ -51,9 +51,6 @@ function Home() {
 
         <div className={styles.home_box}>
 
-            <div className={styles.header}>
-                
-            </div>
 
             <div className={styles.btns_box}>
                 <button className={styles.btn} onClick={handle_click} >Inicio</button>
