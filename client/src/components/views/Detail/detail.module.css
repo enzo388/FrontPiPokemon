@@ -1,0 +1,76 @@
+.detail_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://pokecompany.com/wp-content/uploads/2020/01/P23-398.jpg");
+    background-size: cover;
+    height: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: 25% 25%;
+   
+    
+    
+    
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    background-color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.500);
+}
+
+.pokemon_details{
+    
+    border-radius: 20px ;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.678);
+  
+    background-color: rgba(255, 255, 255, 0.795);
+  
+}
+
+
+.imagen{
+    
+    background-image: url("https://img1.picmix.com/output/stamp/normal/6/0/1/6/1556106_f227e.gif");
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.estadisticas{
+    
+    display: flex;
+    align-items:baseline;
+    
+   
+    flex-direction: column;
+
+}
+
+.loading{
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
