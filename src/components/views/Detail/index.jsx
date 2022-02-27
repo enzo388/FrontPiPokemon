@@ -17,7 +17,7 @@ function Detail(props) {
     }, [props.match.params.id,dispatch])
 
     const details = useSelector((state) => state.detail);
-    console.log("Types: ", details.types);
+    
 
     function handle_button_home(e){
         e.preventDefault();
