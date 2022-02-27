@@ -29,7 +29,7 @@ function Order({set_page, page, render}) {
     return (
         <div >
             <div>
-                <label  >Ordenar Alfabeticamente </label>
+                <label  className={styles.label}>Ordenar Alfabeticamente </label>
                 <select className={styles.name_select} onChange={handle_order_name} >
                     <option value="" ></option>
                     <option value="ASC" >A-Z</option>
@@ -37,7 +37,7 @@ function Order({set_page, page, render}) {
                 </select>
             </div>
             <div>
-                <label  >Ordenar Por Ataque</label>
+                <label  className={styles.label}>Ordenar Por Ataque</label>
                 <select className={styles.attack_select} onChange={handle_order_attack}>
                     <option value="" ></option>
                     <option value="ASC" >Asc</option>

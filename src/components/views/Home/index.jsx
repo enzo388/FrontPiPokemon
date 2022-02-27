@@ -31,7 +31,7 @@ function Home() {
     const índice_del_último_pokemon = página_actual * pokemons_por_página;
     const índice_del_primer_pokemon = índice_del_último_pokemon - pokemons_por_página;
     const pokemons_actuales = pokemons.slice(índice_del_primer_pokemon, índice_del_último_pokemon);
-    console.log(pokemons)
+    
     function paginate(page_number) {
         set_página_actual(page_number);
         

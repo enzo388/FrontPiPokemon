@@ -78,5 +78,26 @@
      background-position: right;
 }
 
-
+@media only screen and (max-width: 950px) and (min-width: 600px) {
+  .pokemons_box{
+    grid-template-columns: auto auto
+  }
+   
+}
+@media only screen and (max-width: 600px) and (min-width: 200px) {
+    .pokemons_box{
+      grid-template-columns: auto 
+    }
+    .btns_box{ 
+        height: 30%;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+     
+  }
+ 
 

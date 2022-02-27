@@ -26,7 +26,7 @@ function Filter() {
     return (
         <div >
             <div>
-                <label >Filtrar por Tipo </label>
+                <label className={styles.label} >Filtrar por Tipo </label>
                 <select className={styles.type_select} onChange={handle_filter_type}>
                     <option value="All">All</option>
                         {
@@ -37,7 +37,7 @@ function Filter() {
                 </select>
             </div>
             <div>
-                <label  >Seleccionar Origen </label>
+                <label  className={styles.label}>Seleccionar Origen </label>
                 <select className={styles.origin_select} onChange={handle_filter_origin}>
                     <option value="ALL">All</option>
                     <option value="DB" >Db</option>
